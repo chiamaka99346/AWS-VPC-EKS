@@ -1,9 +1,12 @@
 variable "aws_access_key" {
-  default = "AKIAQ4723WHRHLGBSFX3"
+  description = "The aws access key"
+  type        = string
+  sensitive   = true # Mark as sensitive to prevent logging
 }
-
 variable "aws_secret_key" {
-  default = "gsfkfqd+pUAb8F0Ya/TjwQwwnpjkymBwEeHxU2T5"
+  description = "The aws secret key"
+  type        = string
+  sensitive   = true # Mark as sensitive to prevent logging
 }
 
 variable "region" {
