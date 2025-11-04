@@ -19,3 +19,4 @@ override.tf.json
 Thumbs.db
 .vscode/
 .idea/
+.qodo/
