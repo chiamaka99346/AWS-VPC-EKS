@@ -1,4 +1,4 @@
-name: Terraform AWS Destroy
+name: Terraform AWS Destroys
 
 on:
   push:
