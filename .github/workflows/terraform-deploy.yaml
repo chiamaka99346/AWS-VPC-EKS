@@ -19,7 +19,7 @@ jobs:
           terraform_version: 1.8.5
 
         
-
+        # Manually configure Terraform credentials
       - name: Configure Terraform credentials manually
         run: |
           mkdir -p ~/.terraform.d
